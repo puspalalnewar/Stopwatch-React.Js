@@ -27,7 +27,7 @@ function App() {
         <span>{("0" + Math.floor((time / 1000) % 60)).slice(-2)}:</span>
         <span>{("0" + ((time / 10) % 100)).slice(-2)}</span>
       </div>
-      <div className='flex max-w-sm flex-row justify-evenly'>
+      <div className='max-w-sm flex flex-row justify-evenly gap-4'>
         {running ?
           <button
             className='border rounded-lg py-1 px-3.5'
